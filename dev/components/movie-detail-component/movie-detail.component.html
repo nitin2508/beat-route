@@ -1,0 +1,19 @@
+
+<div id="detail-component" class="flex layout-row layout-align-center-start">
+    <div>
+    <a [routerLink]="['Welcome']" style="font-size: 20px;color: white;">Back</a>
+</div>
+<div class="flex layout-column layout-align-center-center">
+  <img src="../../../assets/imges/{{movie.img}}" />
+  <div style="margin-top:20px" class="card-body">
+    <p style="text-align:center" class="movie-gener">{{movie.name}}</p>
+    <div class="flex layout-row layout-align-space-between-center">
+        <p class="movie-title">Rating : {{movie.rate}}</p>
+    <p class="movie-title">Length :{{movie.length}}</p>
+    </div>
+    <p class="movie-title">Gener : {{movie.genres}}</p>
+    <p class="movie-title">Decription: {{movie.description}}</p>
+    
+  </div>
+  </div>
+</div>

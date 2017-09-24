@@ -1,0 +1,11 @@
+
+
+<div id="header" class="flex layout-row layout-align-space-between-center">
+  <div class="flex layout-row layout-align-start-center">
+    <img class="logo" src="../../../assets/wave.png" />
+    <p style="margin-bottom:-2px">Movies</p>
+  </div>
+  <div>
+      <input placeholder="search" [(ngModel)]="searchText" (ngModelChange)="searchMovies($event)" type="text">
+  </div>
+</div>

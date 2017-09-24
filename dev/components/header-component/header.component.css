@@ -1,0 +1,14 @@
+#header{
+      color:#42c0fb;
+  background-color:black;
+  height:70px;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 100% !important;
+  margin: 0px !important;
+}
+.logo{
+  height: 40px;
+  width:40px;
+  margin-right: 30px;
+}

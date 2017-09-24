@@ -1,0 +1,9 @@
+<a [routerLink]="['MovieDetail',{key:movie.key}]">
+<div class="flex layout-column" id="movie-card">
+    <img src="../../../assets/imges/{{movie.img}}"/>
+    <div class="card-body">
+        <p class="movie-gener">{{movie.name}}</p>
+        <p class="movie-title">Rating:{{movie.rate}}</p>
+     </div> 
+</div>   
+</a>     
